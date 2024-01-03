@@ -1,17 +1,20 @@
 import { useState } from 'react'
-import BanBif_logo from './assets/Banbif_logo.svg'
+import Navbar from './components/Navbar'
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-    <div className='mt-3'>
-      <img src={BanBif_logo} alt="" />
+    <Navbar/>
+    <div className='flex flex-col w-screen text-center items-center my-5  font-poppins  text-[#004470] gap-3' >
+      <h1 className='text-2xl text-center font-extrabold '>Factoring Independiente</h1>
+      <p className='text-sm font text-center'>Obtén la liquidez inmediata que tu negocio necesita</p>
+
     </div>
-      
+    
        
     </>
   )
