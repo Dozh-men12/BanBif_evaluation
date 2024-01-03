@@ -41,7 +41,7 @@ function FirstScreen() {
   };
   return (
     <div className='flex flex-col'>
-      <div className='w-screen md:bg-orange-500 md:py-16 md:pl-52 md:text-start text-center md:text-white py-4 md:inline-block text-[#004470] flex flex-col gap-3 font-poppins'>
+      <div className='w-screen md:bg-gradient-to-r md:from-sky-400 md:via-blue-600 md:to-blue-600 md:py-16 md:pl-52 md:text-start text-center md:text-white py-4 md:inline-block text-[#004470] flex flex-col gap-3 font-poppins'>
         <h1 className='text-2xl md:text-4xl font-extrabold'>Factoring Independiente</h1>
         <p className='text-sm  md:text-xl md:mt-2'>Obtén la liquidez inmediata que tu negocio necesita</p>        
       </div> 
@@ -85,15 +85,13 @@ function FirstScreen() {
               <p className='text-xs pr-16 font-lato text-[#00447080]'>He leído y acepto la <span className='text-[#20A6FF]'> Cláusula de información y <br />consentimiento para tratamiento datos personales.</span></p>
             </div>
             <div className='my-2 mx-auto '>
-              <button className='py-3 px-16 rounded-3xl bg-slate-500 text-white font-lato items-center text-center'>
+              <button className='py-3 px-16 rounded-3xl bg-gradient-to-r from-purple-500 via-purple-600 to-blue-500 text-white font-lato items-center text-center'>
                 Comenzar
               </button>
             </div>
           </div>
         </div>
       </div>
-
-
 
       <div className='px-6 flex flex-col gap-3 mt-6 md:hidden'>
         <div className='font-lato'>
@@ -109,7 +107,7 @@ function FirstScreen() {
           <p className='text-xs pr-16 font-lato text-[#00447080]'>He leído y acepto la <span className='text-[#20A6FF]'> Cláusula de información y consentimiento para tratamiento datos personales.</span></p>
         </div>
         <div className='my-2 mx-auto '>
-          <button className='py-3 px-16 rounded-3xl bg-slate-500 text-white font-lato items-center text-center'>
+          <button className='py-3 px-16 rounded-3xl bg-gradient-to-r from-purple-500 via-purple-600 to-blue-500 text-white font-lato items-center text-center'>
             Simular
           </button>
         </div>
