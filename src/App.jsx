@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar'
 import FirstScreen from './components/FirstScreen'
-
+import SecondScreen from './components/SecondScreen'
 
 
 function App() {
@@ -9,7 +9,8 @@ function App() {
   return (
     <>
     <Navbar/>
-    <FirstScreen/>
+    {/* <FirstScreen/> */}
+    <SecondScreen/>
           
     </>
   )
