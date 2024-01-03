@@ -9,8 +9,8 @@ function App() {
   return (
     <>
     <Navbar/>
-    {/* <FirstScreen/> */}
-    <SecondScreen/>
+    <FirstScreen/>
+    {/* <SecondScreen/> */}
           
     </>
   )
